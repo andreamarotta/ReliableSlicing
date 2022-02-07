@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<network description="" name="" currentPlotNodeLayout="" cache_definedPlotNodeLayouts="" version="6" nextElementId="25">
+	<node id="2" description="" name="Node0" xCoord="413.0" yCoord="-292.0" mapLayout2NodeXYPositionMap=" 413.0 -292.0" population="0.0" isUp="true" layersWithIconsDefined="">
+		<attribute key="CU" value="0"/>
+		<attribute key="DU" value="0"/>
+		<attribute key="NGC" value="0"/>
+		<attribute key="RU" value="1"/>
+	</node>
+	<node id="3" description="" name="Node1" xCoord="546.0" yCoord="-162.0" mapLayout2NodeXYPositionMap=" 546.0 -162.0" population="0.0" isUp="true" layersWithIconsDefined="">
+			<attribute key="CU" value="0"/>
+		<attribute key="DU" value="0"/>
+		<attribute key="NGC" value="0"/>
+		<attribute key="RU" value="1"/>
+	</node>
+	<node id="4" description="" name="Node2" xCoord="545.0" yCoord="-394.0" mapLayout2NodeXYPositionMap=" 545.0 -394.0" population="0.0" isUp="true" layersWithIconsDefined="">
+			<attribute key="CU" value="0"/>
+		<attribute key="DU" value="0"/>
+		<attribute key="NGC" value="0"/>
+		<attribute key="RU" value="1"/>
+	</node>
+	<node id="5" description="" name="Node3" xCoord="676.0" yCoord="-267.0" mapLayout2NodeXYPositionMap=" 676.0 -267.0" population="0.0" isUp="true" layersWithIconsDefined="">
+			<attribute key="CU" value="1"/>
+		<attribute key="DU" value="1"/>
+		<attribute key="NGC" value="0"/>
+		<attribute key="RU" value="0"/>
+	</node>
+	<node id="6" description="" name="Node4" xCoord="807.0" yCoord="-131.0" mapLayout2NodeXYPositionMap=" 807.0 -131.0" population="0.0" isUp="true" layersWithIconsDefined="">
+				<attribute key="CU" value="1"/>
+		<attribute key="DU" value="1"/>
+		<attribute key="NGC" value="0"/>
+		<attribute key="RU" value="0"/>
+	</node>
+	<node id="7" description="" name="Node5" xCoord="825.0" yCoord="-400.0" mapLayout2NodeXYPositionMap=" 825.0 -400.0" population="0.0" isUp="true" layersWithIconsDefined="">
+				<attribute key="CU" value="1"/>
+		<attribute key="DU" value="1"/>
+		<attribute key="NGC" value="0"/>
+		<attribute key="RU" value="0"/>
+	</node>
+	<node id="8" description="" name="Node6" xCoord="979.0" yCoord="-282.0" mapLayout2NodeXYPositionMap=" 979.0 -282.0" population="0.0" isUp="true" layersWithIconsDefined="">
+				<attribute key="CU" value="0"/>
+		<attribute key="DU" value="0"/>
+		<attribute key="NGC" value="1"/>
+		<attribute key="RU" value="0"/>
+	</node>
+	<layer id="1" description="" name="Layer 0" isDefaultLayer="true" linkCapacityUnitsName="" demandTrafficUnitsName="">
+		<link id="9" description="" name="Link-0" originNodeId="7" destinationNodeId="8" capacity="0.0" lengthInKm="0.0" bidirectionalPairId="10" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="10" description="" name="Link-1" originNodeId="8" destinationNodeId="7" capacity="0.0" lengthInKm="0.0" bidirectionalPairId="9" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="11" description="" name="Link-2" originNodeId="6" destinationNodeId="8" capacity="0.0" lengthInKm="0.0" bidirectionalPairId="12" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="12" description="" name="Link-3" originNodeId="8" destinationNodeId="6" capacity="0.0" lengthInKm="0.0" bidirectionalPairId="11" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="13" description="" name="Link-4" originNodeId="5" destinationNodeId="6" capacity="0.0" lengthInKm="0.0" bidirectionalPairId="14" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="14" description="" name="Link-5" originNodeId="6" destinationNodeId="5" capacity="0.0" lengthInKm="0.0" bidirectionalPairId="13" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="15" description="" name="Link-6" originNodeId="5" destinationNodeId="7" capacity="0.0" lengthInKm="0.0" bidirectionalPairId="16" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="16" description="" name="Link-7" originNodeId="7" destinationNodeId="5" capacity="0.0" lengthInKm="0.0" bidirectionalPairId="15" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="17" description="" name="Link-8" originNodeId="4" destinationNodeId="5" capacity="0.0" lengthInKm="0.0" bidirectionalPairId="18" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="18" description="" name="Link-9" originNodeId="5" destinationNodeId="4" capacity="0.0" lengthInKm="0.0" bidirectionalPairId="17" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="19" description="" name="Link-10" originNodeId="3" destinationNodeId="5" capacity="0.0" lengthInKm="0.0" bidirectionalPairId="20" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="20" description="" name="Link-11" originNodeId="5" destinationNodeId="3" capacity="0.0" lengthInKm="0.0" bidirectionalPairId="19" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="21" description="" name="Link-12" originNodeId="2" destinationNodeId="3" capacity="0.0" lengthInKm="0.0" bidirectionalPairId="22" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="22" description="" name="Link-13" originNodeId="3" destinationNodeId="2" capacity="0.0" lengthInKm="0.0" bidirectionalPairId="21" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="23" description="" name="Link-14" originNodeId="2" destinationNodeId="4" capacity="0.0" lengthInKm="0.0" bidirectionalPairId="24" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<link id="24" description="" name="Link-15" originNodeId="4" destinationNodeId="2" capacity="0.0" lengthInKm="0.0" bidirectionalPairId="23" propagationSpeedInKmPerSecond="200000.0" isUp="true" monitoredOrForecastedTraffics="">
+		</link>
+		<sourceRouting>
+		</sourceRouting>
+		<hopByHopRouting>
+		</hopByHopRouting>
+	</layer>
+</network>
